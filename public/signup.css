@@ -1,0 +1,130 @@
+html {
+    background: url(/images/try2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+header h1 {
+    font-size: 65px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #c40000;
+    text-transform: uppercase;
+    
+    text-shadow: 1px 1px 0px #070711, 1px 2px 0px #19193f, 1px 3px 0px #19193f, 1px 4px 0px #d4d3e8, 1px 5px 0px #070711, 1px 6px 0px #070711,
+      1px 10px 5px rgba(16, 16, 16, 0.5),
+      1px 15px 10px rgba(16, 16, 16, 0.4),
+      1px 20px 30px rgba(16, 16, 16, 0.3),
+      1px 25px 50px rgba(16, 16, 16, 0.2);
+      text-align: center;
+  }
+.body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#main {
+    width: 600px;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 100px;
+    border-top: 3px double #f1f1f1;
+    border-bottom: 3px double #f1f1f1;
+    padding-top: 20px;
+}
+
+#main table {
+    font-family: "Comic Sans MS", cursive;
+}
+#main .tb {
+    height: 28px;
+    width: 230px;
+    border: 1px solid #f26724;
+    color: #fd7838;
+    font-weight: bold;
+    border-left: 5px solid #f7f7f7;
+    opacity: 0.9;
+}
+
+#main .tb:focus {
+    height: 28px;
+    border: 1px solid #f26724;
+    outline: none;
+    border-left: 5px solid #f7f7f7;
+}
+#main .btn {
+    width: 150px;
+    height: 32px;
+    outline: none;
+    color: #f7f7f7;
+    font-weight: bold;
+    border: 0px solid #f26724;
+    text-shadow: 0px 0.5px 0.5px #fff;
+    border-radius: 2px;
+    font-weight: 600;
+    color: #f26724;
+    letter-spacing: 1px;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#main .btn:hover {
+    background-color: #f26724;
+    outline: none;
+    border-radius: 2px;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+.h-tag{
+    color: #ff0000;
+}
+.login{
+    color: #ff0000;
+}
+a {
+    color: #c40000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:#ffffff; 
+    text-decoration:none; 
+    cursor:pointer;  
+  }
+ #Login_Page{
+    width: 150px;
+    height: 32px;
+    outline: none;
+    color: #f7f7f7;
+    font-weight: bold;
+    border: 0px solid #070711;
+    text-shadow: 0px 0.5px 0.5px #fff;
+    border-radius: 2px;
+    font-weight: 600;
+    color: #c40000;
+    letter-spacing: 1px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
